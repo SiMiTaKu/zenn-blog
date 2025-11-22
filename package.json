@@ -1,0 +1,46 @@
+{
+  "name": "zenn-blog",
+  "version": "1.0.0",
+  "description": "zenn連携用のコンテンツリポジトリです。",
+  "homepage": "https://github.com/SiMiTaKu/zenn-blog#readme",
+  "bugs": {
+    "url": "https://github.com/SiMiTaKu/zenn-blog/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiMiTaKu/zenn-blog.git"
+  },
+  "license": "ISC",
+  "author": "SiMiTaKu",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "lint-staged": "lint-staged",
+    "lint": "npx textlint *.md",
+    "lint:fix": "npx textlint --fix && prettier --write ."
+  },
+  "dependencies": {
+    "textlint-rule-ja-hiragana-fukushi": "^1.3.0",
+    "textlint-rule-ja-hiragana-hojodoushi": "^1.1.0",
+    "textlint-rule-ja-hiragana-keishikimeishi": "^1.1.0",
+    "textlint-rule-ja-no-redundant-expression": "^4.0.1",
+    "textlint-rule-ja-no-weak-phrase": "^2.0.0",
+    "textlint-rule-no-doubled-joshi": "^5.1.0",
+    "textlint-rule-preset-jtf-style": "^2.3.14",
+    "textlint-rule-prh": "^6.0.0"
+  },
+  "devDependencies": {
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "textlint": "^14.0.3",
+    "textlint-rule-no-todo": "^2.0.1",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.6.2"
+  },
+  "lint-staged": {
+    "*.{md}": [
+      "npm run lint:fix"
+    ]
+  }
+}
