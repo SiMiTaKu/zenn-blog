@@ -15,13 +15,13 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "dev": "npx zenn preview # ローカルサーバーでプレビューを表示します",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
     "lint": "npx textlint *.md",
     "lint:fix": "npx textlint --fix && prettier --write .",
     "zenn:new-article": "npx zenn new:article # 新しい記事を作成します",
-    "zenn:new-book": "npx zenn new:book # 新しい書籍を作成します",
-    "zenn:preview": "npx zenn preview # ローカルサーバーでプレビューを表示します"
+    "zenn:new-book": "npx zenn new:book # 新しい書籍を作成します"
   },
   "dependencies": {
     "textlint-rule-ja-hiragana-fukushi": "^1.3.0",
