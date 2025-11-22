@@ -1,4 +1,12 @@
-# `<label>`の正しい使い方
+---
+title: '<label>の正しい使い方'
+emoji: '🏷️'
+type: 'tech'
+topics: ['HTML5', 'React', 'コード規約']
+published: true
+---
+
+# <label>の正しい使い方
 
 ## はじめに
 

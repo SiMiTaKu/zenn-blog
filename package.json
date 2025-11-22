@@ -18,7 +18,10 @@
     "prepare": "husky install",
     "lint-staged": "lint-staged",
     "lint": "npx textlint *.md",
-    "lint:fix": "npx textlint --fix && prettier --write ."
+    "lint:fix": "npx textlint --fix && prettier --write .",
+    "zenn:new-article": "npx zenn new:article # 新しい記事を作成します",
+    "zenn:new-book": "npx zenn new:book # 新しい書籍を作成します",
+    "zenn:preview": "npx zenn preview # ローカルサーバーでプレビューを表示します"
   },
   "dependencies": {
     "textlint-rule-ja-hiragana-fukushi": "^1.3.0",
@@ -28,15 +31,16 @@
     "textlint-rule-ja-no-weak-phrase": "^2.0.0",
     "textlint-rule-no-doubled-joshi": "^5.1.0",
     "textlint-rule-preset-jtf-style": "^2.3.14",
-    "textlint-rule-prh": "^6.0.0"
+    "textlint-rule-prh": "^6.0.0",
+    "zenn-cli": "^0.2.10"
   },
   "devDependencies": {
+    "eslint-config-prettier": "^10.1.8",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
+    "prettier": "^3.6.2",
     "textlint": "^14.0.3",
-    "textlint-rule-no-todo": "^2.0.1",
-    "eslint-config-prettier": "^10.1.8",
-    "prettier": "^3.6.2"
+    "textlint-rule-no-todo": "^2.0.1"
   },
   "lint-staged": {
     "*.{md}": [

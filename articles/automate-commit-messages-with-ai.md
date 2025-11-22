@@ -1,3 +1,11 @@
+---
+title: '【業務効率化】もうやめましょうよ〜コミットメッセージ考えるのは'
+emoji: '🤖'
+type: 'tech'
+topics: ['JetBrains', 'AI', 'IntelliJ', '生産性向上', 'Git']
+published: true
+---
+
 # 【業務効率化】もうやめましょうよ〜コミットメッセージ考えるのは
 
 ## はじめに
@@ -22,11 +30,11 @@ JetBrains AI AssistantはIntelliJ IDEAなどのJetBrains IDEに統合されて�
 
 ## コミットメッセージ生成の手順
 
-1. ツールウィンドウのCommitを選択 ![describe-toolwind-commit-position.png](../images/%E3%80%90%E6%A5%AD%E5%8B%99%E5%8A%B9%E7%8E%87%E5%8C%96%E3%80%91%E3%82%82%E3%81%86%E3%82%84%E3%82%81%E3%81%BE%E3%81%97%E3%82%87%E3%81%86%E3%82%88%E3%80%9C%E6%B3%A3%20%E3%82%B3%E3%83%9F%E3%83%83%E3%83%88%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E8%80%83%E3%81%88%E3%82%8B%E3%81%AE%E3%81%AF/describe-toolwind-commit-position.png)
-2. コミットしたいファイルを選択 ![describe-selecting-commit-file.png](../images/%E3%80%90%E6%A5%AD%E5%8B%99%E5%8A%B9%E7%8E%87%E5%8C%96%E3%80%91%E3%82%82%E3%81%86%E3%82%84%E3%82%81%E3%81%BE%E3%81%97%E3%82%87%E3%81%86%E3%82%88%E3%80%9C%E6%B3%A3%20%E3%82%B3%E3%83%9F%E3%83%83%E3%83%88%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E8%80%83%E3%81%88%E3%82%8B%E3%81%AE%E3%81%AF/describe-selecting-commit-file.png)
-3. AI Assistantのアイコンをクリック ![describe-ai-assistant-position.png](../images/%E3%80%90%E6%A5%AD%E5%8B%99%E5%8A%B9%E7%8E%87%E5%8C%96%E3%80%91%E3%82%82%E3%81%86%E3%82%84%E3%82%81%E3%81%BE%E3%81%97%E3%82%87%E3%81%86%E3%82%88%E3%80%9C%E6%B3%A3%20%E3%82%B3%E3%83%9F%E3%83%83%E3%83%88%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E8%80%83%E3%81%88%E3%82%8B%E3%81%AE%E3%81%AF/describe-ai-assistant-position.png)
-4. 生成されたコミットメッセージを確認 ![describe-confirming-commit-message.png](../images/%E3%80%90%E6%A5%AD%E5%8B%99%E5%8A%B9%E7%8E%87%E5%8C%96%E3%80%91%E3%82%82%E3%81%86%E3%82%84%E3%82%81%E3%81%BE%E3%81%97%E3%82%87%E3%81%86%E3%82%88%E3%80%9C%E6%B3%A3%20%E3%82%B3%E3%83%9F%E3%83%83%E3%83%88%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E8%80%83%E3%81%88%E3%82%8B%E3%81%AE%E3%81%AF/describe-confirming-commit-message.png)
-5. コミットを実行 ![describe-click-commit-button.png](../images/%E3%80%90%E6%A5%AD%E5%8B%99%E5%8A%B9%E7%8E%87%E5%8C%96%E3%80%91%E3%82%82%E3%81%86%E3%82%84%E3%82%81%E3%81%BE%E3%81%97%E3%82%87%E3%81%86%E3%82%88%E3%80%9C%E6%B3%A3%20%E3%82%B3%E3%83%9F%E3%83%83%E3%83%88%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E8%80%83%E3%81%88%E3%82%8B%E3%81%AE%E3%81%AF/describe-click-commit-button.png)
+1. ツールウィンドウのCommitを選択 ![describe-toolwind-commit-position.png](/images/automate-commit-messages-with-ai/describe-toolwind-commit-position.png)
+2. コミットしたいファイルを選択 ![describe-selecting-commit-file.png](/images/automate-commit-messages-with-ai/describe-selecting-commit-file.png)
+3. AI Assistantのアイコンをクリック ![describe-ai-assistant-position.png](/images/automate-commit-messages-with-ai/describe-ai-assistant-position.png)
+4. 生成されたコミットメッセージを確認 ![describe-confirming-commit-message.png](/images/automate-commit-messages-with-ai/describe-confirming-commit-message.png)
+5. コミットを実行 ![describe-click-commit-button.png](/images/automate-commit-messages-with-ai/describe-click-commit-button.png)
 
 ## カスタマイズ
 
@@ -83,10 +91,10 @@ AI Assistantなら、プロンプトを自分好みにカスタマイズので�
 
 ## プロンプトの設定方法
 
-1. Intellij IDEAの settings > tools > AI Assistant > Prompt Library を開く ![settings-window.png](../images/%E3%80%90%E6%A5%AD%E5%8B%99%E5%8A%B9%E7%8E%87%E5%8C%96%E3%80%91%E3%82%82%E3%81%86%E3%82%84%E3%82%81%E3%81%BE%E3%81%97%E3%82%87%E3%81%86%E3%82%88%E3%80%9C%E6%B3%A3%20%E3%82%B3%E3%83%9F%E3%83%83%E3%83%88%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E8%80%83%E3%81%88%E3%82%8B%E3%81%AE%E3%81%AF/settings-window.png)
-2. Build-In Actions > Commit Message Generation を選択 ![describe-commit-message-generation-potision.png](../images/%E3%80%90%E6%A5%AD%E5%8B%99%E5%8A%B9%E7%8E%87%E5%8C%96%E3%80%91%E3%82%82%E3%81%86%E3%82%84%E3%82%81%E3%81%BE%E3%81%97%E3%82%87%E3%81%86%E3%82%88%E3%80%9C%E6%B3%A3%20%E3%82%B3%E3%83%9F%E3%83%83%E3%83%88%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E8%80%83%E3%81%88%E3%82%8B%E3%81%AE%E3%81%AF/describe-commit-message-generation-potision.png)
-3. プロンプトを記入 ![descirbe-prompt-window.png](../images/%E3%80%90%E6%A5%AD%E5%8B%99%E5%8A%B9%E7%8E%87%E5%8C%96%E3%80%91%E3%82%82%E3%81%86%E3%82%84%E3%82%81%E3%81%BE%E3%81%97%E3%82%87%E3%81%86%E3%82%88%E3%80%9C%E6%B3%A3%20%E3%82%B3%E3%83%9F%E3%83%83%E3%83%88%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E8%80%83%E3%81%88%E3%82%8B%E3%81%AE%E3%81%AF/descirbe-prompt-window.png)
-4. プロンプトを適用 ![describe-click-prompt-apply-button.png](../images/%E3%80%90%E6%A5%AD%E5%8B%99%E5%8A%B9%E7%8E%87%E5%8C%96%E3%80%91%E3%82%82%E3%81%86%E3%82%84%E3%82%81%E3%81%BE%E3%81%97%E3%82%87%E3%81%86%E3%82%88%E3%80%9C%E6%B3%A3%20%E3%82%B3%E3%83%9F%E3%83%83%E3%83%88%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E8%80%83%E3%81%88%E3%82%8B%E3%81%AE%E3%81%AF/describe-click-prompt-apply-button.png)
+1. Intellij IDEAの settings > tools > AI Assistant > Prompt Library を開く ![settings-window.png](/images/automate-commit-messages-with-ai/settings-window.png)
+2. Build-In Actions > Commit Message Generation を選択 ![describe-commit-message-generation-potision.png](/images/automate-commit-messages-with-ai/describe-commit-message-generation-potision.png)
+3. プロンプトを記入 ![descirbe-prompt-window.png](/images/automate-commit-messages-with-ai/descirbe-prompt-window.png)
+4. プロンプトを適用 ![describe-click-prompt-apply-button.png](/images/automate-commit-messages-with-ai/describe-click-prompt-apply-button.png)
 
 ## 最後に
 
