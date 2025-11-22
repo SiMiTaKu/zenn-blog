@@ -9,7 +9,8 @@ zenn連携用のブログコンテンツ管理リポジトリです。
 ├── .github/                    # github関連のコード
 ├── .husky/
 │   └── pre-commit              # Git pre-commitフック
-├── contents/                   # Zenn記事ディレクトリ（将来的にサブディレクトリを作成する可能性あり）
+├── articles/                   # Zenn記事ディレクトリ
+├── books/                      # Zenn書籍ディレクトリ
 ├── .textlintrc.json            # textlint設定
 ├── .prettierrc.cjs             # Prettier設定
 └── package.json                # プロジェクト設定

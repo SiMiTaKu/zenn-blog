@@ -18,7 +18,7 @@
 
 ### Markdown
 
-- `contents/` ディレクトリ配下に技術記事を配置
+- `articles/` ディレクトリ配下に技術記事を配置
   - 将来的にコンテンツのジャンルごとにサブディレクトリを作成する可能性あり
 - textlintルールに従った日本語表記を使用
   - TODOコメント禁止
@@ -66,10 +66,11 @@ pre-commitフックで以下が自動実行されます:
 │   └── copilot-instructions.md  # このファイル
 ├── .husky/
 │   └── pre-commit               # Git pre-commitフック
-├── contents/                    # Zenn記事ディレクトリ
-├── .textlintrc.json            # textlint設定
-├── .prettierrc.cjs             # Prettier設定
-└── package.json                # プロジェクト設定
+├── articles/                    # Zenn記事ディレクトリ
+├── books/                       # Zenn書籍ディレクトリ
+├── .textlintrc.json             # textlint設定
+├── .prettierrc.cjs              # Prettier設定
+└── package.json                 # プロジェクト設定
 ```
 
 ## GitHub Copilotへの指示
@@ -79,7 +80,7 @@ pre-commitフックで以下が自動実行されます:
 - Markdownファイル作成時は必ずtextlintルールに準拠すること
 - 日本語の形式名詞・補助動詞・副詞はひらがなで記述
 - コード例を含む場合はPrettier設定に従ったフォーマットを使用
-- 新規ファイルは `contents/` ディレクトリに配置
+- 新規ファイルは `articles/` ディレクトリに配置
 
 ### 推奨される動作
 
