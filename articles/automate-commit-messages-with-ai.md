@@ -3,7 +3,7 @@ title: '【業務効率化】もうやめましょうよ〜コミットメッセ
 emoji: '🤖'
 type: 'tech'
 topics: ['JetBrains', 'AI', 'IntelliJ', '生産性向上', 'Git']
-published: true
+published: false
 ---
 
 # 【業務効率化】もうやめましょうよ〜コミットメッセージ考えるのは
