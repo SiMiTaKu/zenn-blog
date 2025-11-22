@@ -3,10 +3,12 @@ title: '<label>の正しい使い方'
 emoji: '🏷️'
 type: 'tech'
 topics: ['HTML5', 'React', 'コード規約']
-published: false
+published: true
 ---
 
 # <label>の正しい使い方
+
+github連携をきっかけに、動作確認も兼ねて元々の記事を再度載せました。🙇
 
 ## はじめに
 
