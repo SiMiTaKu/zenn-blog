@@ -3,7 +3,7 @@ title: '【執筆・校正・公開を完全自動化】Zennブログ環境構�
 emoji: '🔰'
 type: 'tech'
 topics: ['Zenn', 'Copilot', 'textlint', 'Prettier', 'AI']
-published: false
+published: true
 ---
 
 ## この記事の対象読者
