@@ -137,7 +137,7 @@ npm install -D eslint-config-prettier husky lint-staged prettier textlint textli
 
 :::
 
-::: detailsその他のツール
+:::details #その他のツール
 
 | パッケージ名             | 役割                                       |
 | ------------------------ | ------------------------------------------ |
@@ -256,7 +256,7 @@ module.exports = {
 
 :::
 
-:::details使い方
+:::details #使い方
 
 ```bash
 npm run lint        # Lintチェック
