@@ -1,5 +1,5 @@
 ---
-title: '【執筆・校正・公開を完全自動化】Zennブログ環境構築｜GitHub連携×textlint×Prettier×Copilot'
+title: '【完全自動化】Zennブログ執筆環境構築｜GitHub連携×textlint×Prettier×Copilot'
 emoji: '🔰'
 type: 'tech'
 topics: ['Zenn', 'Copilot', 'textlint', 'Prettier', 'AI']
