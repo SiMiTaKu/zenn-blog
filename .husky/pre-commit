@@ -1,5 +1,5 @@
 echo "セキュリティ脆弱性のチェック"
-npm audit
+pnpm audit
 
 echo "ステージングされたファイルに対してlinterを実行する"
 npx lint-staged
